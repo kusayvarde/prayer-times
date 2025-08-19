@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Load axios from local node_modules (no CDN). Must come before aladhan.js so axios is defined. -->
+    <script src="./node_modules/axios/dist/axios.js"></script>
+    <script src="aladhan.js"></script>
+        <title>prayer time</title>
+    </head>
+    <body>
+        <div id="prayer-times">
+            <h2>Prayer Times</h2>
+            <button id="fetch-prayer-times" onclick="getPrayerTimes()">Get Prayer Times</button>
+        </div>
+    </body>
+</html>
